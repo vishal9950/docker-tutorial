@@ -14,6 +14,12 @@ Run command:
     ./hello
 ```
 
+Dockerfile build:
+
+```
+    docker build -t go-server .
+```
+
 Port: `8000`
 
 ## python server
@@ -30,6 +36,12 @@ or
     python httpserver.py
 ```
 
+Dockerfile build:
+
+```
+    docker build -t python-server .
+```
+
 Port: `8001`
 
 ## ruby server
@@ -38,6 +50,12 @@ Run command:
 
 ```ruby
     ruby http.rb
+```
+
+Dockerfile build:
+
+```
+    docker build -t ruby-server .
 ```
 
 Port: `8002`

@@ -1,6 +1,6 @@
 # http_server.rb
 require 'socket'
-server = TCPServer.new 5678
+server = TCPServer.new 8002
 
 while session = server.accept
   request = session.gets

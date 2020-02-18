@@ -14,6 +14,8 @@ Run command:
     ./hello
 ```
 
+Port: `8000`
+
 ## python server
 
 Run command:
@@ -28,6 +30,8 @@ or
     python httpserver.py
 ```
 
+Port: `8001`
+
 ## ruby server
 
 Run command:
@@ -35,3 +39,5 @@ Run command:
 ```ruby
     ruby http.rb
 ```
+
+Port: `8002`
